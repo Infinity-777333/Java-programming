@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class StringsSort{
  public static void main(String ar[]){
     Scanner sc=new Scanner(System.in);
-    System.out.print("Enter the number of Strings:);
+    System.out.print("Enter the number of Strings:");
     int n=sc.nextInt();
     
     String [] s=new String [n];
@@ -20,5 +20,6 @@ public class StringsSort{
     for(String x: s){
     System.out.print(x+" ");
     }
+      System.out.println();
  }  
 }
