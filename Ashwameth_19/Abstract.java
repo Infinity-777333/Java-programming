@@ -44,13 +44,15 @@ void show(){
     Square(int side){
     this.side=side;
     }
-
- 
- void show(){
+    
+   void show(){
  int area=side*side;
  System.out.println("Area of Square:"+area);
  }
+ 
+
  }
+
  
  public class Abstract{
    
