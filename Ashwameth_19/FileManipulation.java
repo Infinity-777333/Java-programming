@@ -23,10 +23,10 @@ try{
   
   FileReader fr=new FileReader(filename);
   BufferedReader br=new BufferedReader(fr);
-  String readLine;
+  String line;
   System.out.println("Contents inside file");
-  while((readLine=br.readLine())!=null){
-  System.out.println(readLine);
+  while((line=br.readLine())!=null){
+  System.out.println(line);
   
   }
   fr.close();
