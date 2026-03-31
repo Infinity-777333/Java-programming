@@ -13,10 +13,10 @@ String dest=sc.nextLine();
 FileReader fr=new FileReader(source);
 BufferedReader br=new BufferedReader(fr);
 
-String readLine;
+String line;
 FileWriter fw=new FileWriter(dest);
-while((readLine=br.readLine())!=null){
-fw.write(readLine + " \n");
+while((line=br.readLine())!=null){
+fw.write(line + " \n");
 
 }
 fr.close();
