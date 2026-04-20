@@ -11,6 +11,7 @@ import java.awt.event.*;
  l2=new Label("Enter the Second number:");
  l3=new Label("Enter the third number:");
  l4=new Label("Greatest number is:");
+ result=new Label();
  
  t1=new TextField();
  t2=new TextField();
